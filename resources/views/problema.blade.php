@@ -1,6 +1,6 @@
 @extends('layouts.template')
 @section('content')
-{{-- <div class="container-sm0">
+<div class="form-signin">
     <form action="">
         <label for="" class="text-align-left">Método:</label>
         <select name="" id="" class="form-select mb-1">
@@ -16,5 +16,5 @@
             <button class="btn btn-orange" type="submit"><strong>Continuar</strong></button>
         </div>
     </form>
-</div> --}}
+</div>
 @endsection

@@ -1,0 +1,88 @@
+.btn-orange {
+    color: white;
+    background-color: #FBAF3F;
+}
+
+.text-orange {
+    color: rgb(251, 175, 63);
+}
+
+.btn-orange:focus-visible {
+    color: white;
+    background-color: #ce9135;
+    border-color: #f7bd67;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(251, 175, 63, .5);
+}
+
+.btn-check:checked+.btn-orange, .btn.active, .btn.show, .btn-orange:first-child:active, :not(.btn-check)+.btn-orange:active  {
+    color:white;
+    background-color: #ce9135;
+    border-color: #f7bd67;
+}
+
+.btn-orange:hover {
+    color:white;
+    background-color: #ce9135;
+    border-color: #f7bd67;
+}
+
+.container-sm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 35vh;
+    padding: 20px;
+    max-width: 250px;
+    margin: auto; 
+}
+/* 
+.bd-mode-toggle {
+    z-index: 1500;
+}
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+    display: block !important;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.vh-65 {
+    min-height: 65vh;
+}
+
+.active>.page-link {
+    color:white;
+    background-color:  #510ebd;
+    border-color:#6723d4;
+}
+.page-link {
+    color:#9560eb;
+}
+
+.page-link:hover {
+    color:#9560eb;
+}
+
+.page-link:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(102, 16, 242, .5);
+} */
+
+
+@media (min-width: 1200px) {
+    .form-register {
+        margin: 0 auto;
+        max-width: 75%;
+    }
+}
+
+.error-message {
+    display: block;
+    margin-top: 5px;
+    color: #dc3545;
+    font-size: 0.875em; 
+}
